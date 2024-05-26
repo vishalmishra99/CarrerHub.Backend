@@ -13,7 +13,7 @@ const app = express();
 dotenv.config({path: "./config/config.env"});
 
 app.use(cors({
-    origin: 'https://career-hub-front-end.vercel.app/login',
+    origin: 'https://career-hub-front-end.vercel.app/',
     methods: ["GET","POST","DELETE","PUT"],
     credentials: true,
   })
